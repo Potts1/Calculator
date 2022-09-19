@@ -15,7 +15,6 @@ public class Distance {
 
     public String getMidpoint() {
         double[] midpoint = new double[2];
-        int b = 0;
 
         midpoint[0] = (pair1[0] + pair2[0]) / 2;
         midpoint[1] = (pair1[1] + pair2[1]) / 2;
